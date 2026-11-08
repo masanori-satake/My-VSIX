@@ -60,7 +60,8 @@ def main() -> int:
     findings = []
     check_manifest(root, findings)
     for path in sorted(root.rglob("*")):
-        if path.is_file() and path.suffix in SOURCE_EXTS and "node_modules" not in path.parts:
+        # tools/ はキット同梱の道具（ガード自身とビルド）なので走査対象外
+        if path.is_file() and path.suffix in SOURCE_EXTS and not ({"node_modules", "tools", "dist"} & set(path.parts)):
             scan_file(path, str(path.relative_to(root)), findings)
     if findings:
         print("機械ガードで止まりました。理由は次のとおりです:")

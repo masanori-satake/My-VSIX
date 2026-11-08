@@ -1,16 +1,18 @@
 # ビルド入口（作品プロジェクト用ひな形）
 # 実行: pre-commit run --all-files
+# 流れ: 機械ガード → 構文チェック → VSIX 化（dist/ へ出力）
 repos:
   - repo: local
     hooks:
       - id: my-vsix-guards
         name: 機械ガード（約束チェック）
         entry: python tools/guards/check_all.py .
-        language: system
+        language: python
         pass_filenames: false
-      - id: my-vsix-syntax
-        name: 構文チェック
-        entry: node --check extension.js
-        language: system
-        files: ^extension\.js$
-      # VSIX 化は Node を隔離環境で調達する hook として実行する（キット tools/build の実体化時に確定）
+      - id: my-vsix-build
+        name: 構文チェックと VSIX 化
+        entry: node tools/build/build.js
+        language: node
+        language_version: "24"
+        additional_dependencies: ["@vscode/vsce@4.1.0"]
+        pass_filenames: false
