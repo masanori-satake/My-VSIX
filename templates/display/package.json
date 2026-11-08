@@ -1,0 +1,23 @@
+{
+"name": "my-work-display",
+"displayName": "（作品の名前）",
+"description": "（一言で何が見えるか）",
+"version": "0.1.0",
+"publisher": "myself",
+"engines": { "vscode": "^1.80.0"},
+"categories": ["Other"],
+"activationEvents": ["onStartupFinished"],
+"main": "./extension.js",
+"contributes": {
+"configuration": {
+"title": "（作品の名前）",
+"properties": {
+"myWork.marker": {
+"type": "string",
+"default": "TODO",
+"description": "数える目印の言葉"
+}
+}
+}
+}
+}
