@@ -1,5 +1,7 @@
 # My VSIX
 
+[![Version](https://img.shields.io/github/v/release/masanori-satake/My-VSIX)](https://github.com/masanori-satake/My-VSIX/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 自分の VS Code（や Kiro）で毎日使える「自分用の小さな拡張機能」を、AI と一緒に 60 分で作るためのキットです。
 
 <p align="center"><img src="assets/illustrations/desk.webp" width="420" alt="窓辺の小さな作業机"></p>
