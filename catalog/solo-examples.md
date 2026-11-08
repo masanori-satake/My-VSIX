@@ -13,7 +13,7 @@
 | SkillMap-Solo | スキルのファイル同士のつながりが見えない | [Marketplace](https://marketplace.visualstudio.com/items?itemName=masanori-satake.skillmap-solo) / [Open VSX](https://open-vsx.org/extension/masanori-satake/skillmap-solo) / [GitHub](https://github.com/masanori-satake/SkillMap-Solo) |
 | SkillTrace-Solo | AI がスキルを実際にどこまで読んだのか、実行してみないと分からない | [Marketplace](https://marketplace.visualstudio.com/items?itemName=masanori-satake.skilltrace-solo) / [Open VSX](https://open-vsx.org/extension/masanori-satake/skilltrace-solo) / [GitHub](https://github.com/masanori-satake/SkillTrace-Solo) |
 
-## Chrome 拡張（Chrome Web Store で公開中）
+## Chrome 拡張
 
 | 作品 | 困ったこと | 実物へのリンク |
 |---|---|---|
