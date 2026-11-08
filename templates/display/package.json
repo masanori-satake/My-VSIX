@@ -4,7 +4,7 @@
 "description": "（一言で何が見えるか）",
 "version": "0.1.0",
 "publisher": "myself",
-"engines": { "vscode": "^1.80.0"},
+"engines": { "vscode": "^1.100.0"},
 "categories": ["Other"],
 "activationEvents": ["onStartupFinished"],
 "main": "./extension.js",
