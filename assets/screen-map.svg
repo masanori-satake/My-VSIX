@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="sans-serif">
+  <rect x="10" y="10" width="940" height="620" rx="12" fill="#f4f4f5" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- 1: title bar -->
+  <rect x="10" y="10" width="940" height="40" rx="12" fill="#dbeafe"/>
+  <circle cx="42" cy="30" r="14" fill="#2563eb"/>
+  <text x="42" y="36" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">1</text>
+  <text x="70" y="36" font-size="15" fill="#1f2937">上の帯（メニューが並ぶところ）</text>
+  <circle cx="880" cy="30" r="7" fill="#f87171"/>
+  <circle cx="905" cy="30" r="7" fill="#fbbf24"/>
+  <circle cx="930" cy="30" r="7" fill="#34d399"/>
+
+  <!-- 2: activity bar -->
+  <rect x="10" y="50" width="48" height="500" fill="#ede9fe"/>
+  <circle cx="34" cy="78" r="14" fill="#7c3aed"/>
+  <text x="34" y="84" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">2</text>
+  <rect x="22" y="106" width="24" height="24" rx="5" fill="#c4b5fd"/>
+  <rect x="22" y="142" width="24" height="24" rx="5" fill="#c4b5fd"/>
+  <rect x="22" y="178" width="24" height="24" rx="5" fill="#c4b5fd"/>
+  <text x="34" y="330" text-anchor="middle" font-size="12" fill="#4c1d95" transform="rotate(-90 34 330)">左端の細い帯（アイコンが縦に並ぶ）</text>
+
+  <!-- 3: side bar -->
+  <rect x="58" y="50" width="180" height="500" fill="#fef3c7"/>
+  <circle cx="84" cy="78" r="14" fill="#d97706"/>
+  <text x="84" y="84" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">3</text>
+  <text x="106" y="84" font-size="14" fill="#78350f">左の一覧</text>
+  <rect x="72" y="104" width="150" height="14" rx="4" fill="#fcd34d"/>
+  <rect x="86" y="128" width="136" height="14" rx="4" fill="#fde68a"/>
+  <rect x="86" y="152" width="136" height="14" rx="4" fill="#fde68a"/>
+  <rect x="72" y="176" width="150" height="14" rx="4" fill="#fcd34d"/>
+  <rect x="86" y="200" width="136" height="14" rx="4" fill="#fde68a"/>
+  <text x="84" y="250" font-size="12" fill="#92400e">ファイルの一覧が出る場所</text>
+
+  <!-- 4: editor -->
+  <rect x="238" y="50" width="470" height="352" fill="#dcfce7"/>
+  <circle cx="264" cy="78" r="14" fill="#16a34a"/>
+  <text x="264" y="84" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">4</text>
+  <text x="286" y="84" font-size="14" fill="#14532d">真ん中の本文（コードを書く場所）</text>
+  <rect x="256" y="108" width="380" height="13" rx="4" fill="#86efac"/>
+  <rect x="286" y="130" width="330" height="13" rx="4" fill="#bbf7d0"/>
+  <rect x="286" y="152" width="350" height="13" rx="4" fill="#bbf7d0"/>
+  <rect x="256" y="174" width="300" height="13" rx="4" fill="#86efac"/>
+  <rect x="286" y="196" width="340" height="13" rx="4" fill="#bbf7d0"/>
+
+  <!-- 9: webview overlay in editor -->
+  <rect x="330" y="230" width="290" height="140" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="356" cy="256" r="14" fill="#059669"/>
+  <text x="356" y="262" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">9</text>
+  <text x="378" y="262" font-size="13" fill="#065f46">大きな窓（パネル型の表示先）</text>
+  <rect x="348" y="282" width="120" height="70" rx="6" fill="#a7f3d0"/>
+  <rect x="482" y="282" width="120" height="70" rx="6" fill="#a7f3d0"/>
+
+  <!-- 5: secondary side bar -->
+  <rect x="708" y="50" width="242" height="352" fill="#fce7f3"/>
+  <circle cx="734" cy="78" r="14" fill="#db2777"/>
+  <text x="734" y="84" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">5</text>
+  <text x="756" y="84" font-size="14" fill="#831843">右側の場所</text>
+  <text x="734" y="120" font-size="12" fill="#9d174d">チャットなどが開く場所</text>
+
+  <!-- 8: command palette overlay -->
+  <rect x="300" y="120" width="360" height="52" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="326" cy="146" r="14" fill="#2563eb"/>
+  <text x="326" y="152" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">8</text>
+  <text x="348" y="152" font-size="13" fill="#1e3a8a">呼び出し窓（コマンドの入力欄）</text>
+
+  <!-- 6: panel -->
+  <rect x="238" y="402" width="712" height="148" fill="#e0e7ff"/>
+  <circle cx="264" cy="428" r="14" fill="#4f46e5"/>
+  <text x="264" y="434" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">6</text>
+  <text x="286" y="434" font-size="14" fill="#312e81">下の広い部分（実行結果や端末が出る場所）</text>
+  <rect x="256" y="452" width="420" height="12" rx="4" fill="#a5b4fc"/>
+  <rect x="256" y="474" width="380" height="12" rx="4" fill="#c7d2fe"/>
+
+  <!-- 7: status bar -->
+  <rect x="10" y="550" width="940" height="40" fill="#cffafe"/>
+  <circle cx="42" cy="570" r="14" fill="#0891b2"/>
+  <text x="42" y="576" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="bold">7</text>
+  <text x="70" y="576" font-size="15" fill="#164e63">一番下の細い帯（いつも見える場所。表示型の表示先）</text>
+  <text x="880" y="576" text-anchor="end" font-size="12" fill="#164e63">残り 3</text>
+
+  <!-- footer note -->
+  <text x="10" y="622" font-size="12" fill="#6b7280">番号か日常の言葉で答えてください。用語への置き換えは AI が行います。</text>
+</svg>
