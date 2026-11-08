@@ -1,6 +1,6 @@
 # はじめ方ガイド
 
-<img src="../assets/illustrations/guide-bird.webp" width="360" alt="ノートPCの上の小鳥">
+<p align="center"><a href="../assets/birds.md"><img src="../assets/illustrations/guide-bird.webp" width="360" alt="ノートPCの上の小鳥" title="案内役の鳥たち"></a></p>
 
 1. このリポジトリを自分のパソコンにコピー（チェックアウト）する
 2. [事前準備ガイド](pre-setup-guide.md) の事前準備を済ませる

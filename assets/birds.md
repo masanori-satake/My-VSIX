@@ -2,8 +2,7 @@
 
 フェーズごとに、案内役の鳥が変わります。イラストは利用者向けの文書に、性格は Skills とのやり取りの言い回しに少しだけ出てきます。
 
-<img src="illustrations/bird-problem-uguisu.webp" width="320" alt="ウグイス（困ったこと）">
-<img src="illustrations/bird-showcase-ruribitaki.webp" width="320" alt="ルリビタキ（お披露目）">
+<p align="center"><img src="illustrations/bird-problem-uguisu.webp" width="320" alt="ウグイス（困ったこと）" title="ウグイス（困ったことの案内役）"> <img src="illustrations/bird-showcase-ruribitaki.webp" width="320" alt="ルリビタキ（お披露目）" title="ルリビタキ（お披露目の案内役）"></p>
 
 ## 約束（やり過ぎないための決めごと）
 
@@ -11,6 +10,7 @@
 - 性格は、必要な質問や案内の言い回しに少しだけにじませる。本文の説明・手順・機械ガードの文言は通常どおり簡潔に
 - 鳥が一人称で長く話すことはしない。AI 本体の話し方は通常どおり
 - 性格は実在の鳥の特徴に寄せて決める（鳴くのはオス、青い羽はオス、など）。この表から各スキルへは1行だけ写す
+- 画像はあくまで飾り。画像へのクリックを、キットを使う上で必要な操作にはしない。例外は、鳥好きの人向けの楽しみとして置く「鳥の画像からこの対応表へのリンク」と「マウスオーバーで鳥の名前が出る」だけ
 
 ## 対応表
 
