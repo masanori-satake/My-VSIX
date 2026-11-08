@@ -23,7 +23,7 @@
 | TabMagnet-Solo | 開きすぎたタブが散らかって、目的のタブが見つからない | [Chrome Web Store](https://chromewebstore.google.com/detail/tabmagnet-solo/lffgddghjafcjpfjdpknhfbonhnkdlmc) / [GitHub](https://github.com/masanori-satake/TabMagnet-Solo) |
 | FlexPaste-Solo | コピーした文章を貼り付けるとき、整形を毎回手でやる手間 | [Chrome Web Store](https://chromewebstore.google.com/detail/egmememialdjhohecnfkimpablkjfabg) / [GitHub](https://github.com/masanori-satake/FlexPaste-Solo) |
 | ActionsBoard-Solo | GitHub Actions の実行状態を確認するために、何度もページを見に行く手間 | [Chrome Web Store](https://chromewebstore.google.com/detail/oofegjdjnldkikigimkadlleaiolionm) / [GitHub](https://github.com/masanori-satake/ActionsBoard-Solo) |
-| Issues-Solo | GitHub の Issue の状態を確認するために、何度もページを見に行く手間 | [Chrome Web Store](https://chromewebstore.google.com/detail/cehkajdhieihmoghbneckifpkoafmbco) / [GitHub](https://github.com/masanori-satake/Issues-Solo) |
+| Issues-Solo | Jira の課題を確認するために、何度も Jira のページを見に行く手間 | [Chrome Web Store](https://chromewebstore.google.com/detail/cehkajdhieihmoghbneckifpkoafmbco) / [GitHub](https://github.com/masanori-satake/Issues-Solo) |
 
 Chrome 拡張は、Chrome Web Store の公開枠の関係で、公開中の7本だけを載せています。
 
