@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: まず FAQ とトラブルシュートを見る
+    url: https://github.com/masanori-satake/My-VSIX/blob/main/docs/faq.md
+    about: 既知の詰まりどころと対処がまとまっています。AI に「my-vsix-help スキルで進めて」と声をかけるのもおすすめです
+  - name: 使い方の質問は利用者同士の場へ
+    url: https://github.com/masanori-satake/My-VSIX/blob/main/docs/faq.md
+    about: この Issue はキット自体の不具合専用です。作り方の相談は、まず FAQ とスキル、それでも解決しなければ利用者同士の場へお願いします

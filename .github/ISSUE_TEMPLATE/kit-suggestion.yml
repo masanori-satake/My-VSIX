@@ -1,0 +1,32 @@
+name: キットへの改善提案
+description: My VSIX キットの改善提案（分かりにくかった案内、足りない資料など）を受け付けるフォームです
+title: "[提案] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 対象はどれですか
+      options:
+        - セットアップ（事前準備・スキル展開）
+        - スキル（AI の案内・進め方）
+        - テンプレート（3型のいずれか）
+        - ビルド／機械ガード
+        - ガイド・文書（README、事前準備ガイド、FAQ など）
+        - 体験会のお題パック
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案
+      description: 何をどう変えると良くなるか
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: そう思った場面
+      description: 実際に困った・迷った場面があれば書いてください
+    validations:
+      required: false

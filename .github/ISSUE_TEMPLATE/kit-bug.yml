@@ -1,0 +1,46 @@
+name: キットの不具合報告
+description: My VSIX キット自体の不具合（スキル・テンプレート・ビルド・ガイドの誤り）だけを報告するフォームです。自分の作品の作り方の質問は FAQ とスキルをご利用ください
+title: "[不具合] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ご報告ありがとうございます
+        このフォームは **キット自体の不具合専用** です。報告の前に、次を確認してください。
+        - FAQ（docs/faq.md）と my-vsix-help スキルで自己解決を試した
+        - 15分を超えそう、または同じ試行が3回以上に及びそうになったため、次の段として報告する
+  - type: dropdown
+    id: area
+    attributes:
+      label: どこで起きましたか
+      options:
+        - セットアップ（事前準備・スキル展開）
+        - スキル（AI の案内・進め方）
+        - テンプレート（3型のいずれか）
+        - ビルド／機械ガード
+        - ガイド・文書（README、事前準備ガイド、FAQ など）
+        - 体験会のお題パック
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: やろうとしたこと・起きたこと
+      description: 期待していた動きと、実際に起きたことを分けて書いてください
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: 試したこと
+      description: 打ち切りまでに試した対処（my-vsix-help の切り分け結果があればそれも）
+    validations:
+      required: false
+  - type: textarea
+    id: env
+    attributes:
+      label: 環境情報
+      description: 制作メモの「環境情報」（使用ツール、各バージョン、セットアップ完了日時）を貼ってください。鍵やトークンなどの秘密情報は絶対に貼らないでください
+    validations:
+      required: true
