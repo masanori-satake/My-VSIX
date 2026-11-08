@@ -1,5 +1,5 @@
 // ビルド入口の後段: 構文チェック → VSIX 化。
-// pre-commit の Node 隔離環境から呼ばれる（vsce はその環境に固定版が入っている）。
+// pre-commit の Node 仮想環境から呼ばれる（vsce はその環境に固定版が入っている）。
 const { spawnSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
