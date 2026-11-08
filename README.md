@@ -2,6 +2,8 @@
 
 自分の VS Code（や Kiro）で毎日使える「自分用の小さな拡張機能」を、AI と一緒に 60 分で作るためのキットです。
 
+<img src="assets/illustrations/desk.webp" width="420" alt="窓辺の小さな作業机">
+
 ## これは何か
 
 - 対象: GitHub Copilot のライセンスが配られている方（Kiro でも使えます）

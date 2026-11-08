@@ -1,5 +1,7 @@
 # はじめ方ガイド
 
+<img src="../assets/illustrations/guide-bird.webp" width="360" alt="ノートPCの上の小鳥">
+
 1. このリポジトリを自分のパソコンにコピー（チェックアウト）する
 2. [事前準備ガイド](pre-setup-guide.md) の事前準備を済ませる
 3. このフォルダを VS Code（または Kiro）で開く

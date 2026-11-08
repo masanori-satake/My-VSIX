@@ -2,6 +2,9 @@
 
 フェーズごとに、案内役の鳥が変わります。イラストは利用者向けの文書に、性格は Skills とのやり取りの言い回しに少しだけ出てきます。
 
+<img src="illustrations/bird-problem-uguisu.webp" width="320" alt="ウグイス（困ったこと）">
+<img src="illustrations/bird-showcase-ruribitaki.webp" width="320" alt="ルリビタキ（お披露目）">
+
 ## 約束（やり過ぎないための決めごと）
 
 - 情景描写のような、やり取りの外側の一文は足さない。時間を捻出して参加している人には、冗長に感じられるため
