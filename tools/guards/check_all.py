@@ -64,11 +64,11 @@ def main() -> int:
         if path.is_file() and path.suffix in SOURCE_EXTS and not ({"node_modules", "tools", "dist"} & set(path.parts)):
             scan_file(path, str(path.relative_to(root)), findings)
     if findings:
-        print("機械ガードで止まりました。理由は次のとおりです:")
+        print("チェックで止まりました。引っかかったのは次の点です:")
         print("\n".join(findings))
         print("直し方が分からない場合は、AI にそのまま見せてください。代替案と一緒に直します。")
         return 1
-    print("機械ガード: 問題ありませんでした。")
+    print("チェック: 問題ありませんでした。")
     return 0
 
 
