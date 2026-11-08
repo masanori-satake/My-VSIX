@@ -1,5 +1,7 @@
 # 体験会ガイド
 
+<p align="center"><a href="../assets/birds.md"><img src="../assets/illustrations/birds-workshop-flock.webp" width="480" alt="鳥たちの群れ（体験会）" title="鳥たちの群れ（体験会の案内役）"></a></p>
+
 ## 目的
 
 60分で「動いた」と「見せ合う」まで到達し、「何だ、簡単なんだ」「自分にもできた」という体験を持って帰る場です。

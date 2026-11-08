@@ -1,5 +1,7 @@
 # Solo 実例集（叩き台）
 
+<p align="center"><a href="../assets/birds.md"><img src="../assets/illustrations/bird-showcase-ruribitaki.webp" width="320" alt="ルリビタキ（お披露目）" title="ルリビタキ（お披露目の案内役）"></a></p>
+
 キットの作者の個人開発（-Solo シリーズ）から、「どんな困ったことが、どんな作品になったか」を分解したものです。考えるきっかけとして使ってください。
 
 - 困ったこと: 会議の予定と資料を行き来する手間 → 作品: MeetDock-Solo（VS Code 拡張）

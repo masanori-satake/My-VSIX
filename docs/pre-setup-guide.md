@@ -1,5 +1,7 @@
 # 事前準備ガイド
 
+<p align="center"><a href="../assets/birds.md"><img src="../assets/illustrations/bird-setup-suzume.webp" width="320" alt="スズメ（準備）" title="スズメ（準備の案内役）"></a></p>
+
 体験会や自習の **当日ではなく、事前に** 終わらせておくためのガイドです。
 当日は「作る」ことに集中できるよう、時間のかかるダウンロードは事前に済ませておきましょう。
 

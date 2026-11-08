@@ -1,5 +1,7 @@
 # トラブルシュート／FAQ
 
+<p align="center"><a href="../assets/birds.md"><img src="../assets/illustrations/bird-help-shijukara.webp" width="320" alt="シジュウカラ（困ったとき）" title="シジュウカラ（困ったときの案内役）"></a></p>
+
 作業中に困ったら、まず AI のチャット欄に次の文をそのまま入力してください。問い合わせの多い質問は、この下にまとめています。
 
 ```

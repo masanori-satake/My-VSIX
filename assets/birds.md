@@ -2,7 +2,8 @@
 
 フェーズごとに、案内役の鳥が変わります。イラストは利用者向けの文書に、性格は Skills とのやり取りの言い回しに少しだけ出てきます。
 
-<p align="center"><img src="illustrations/bird-problem-uguisu.webp" width="320" alt="ウグイス（困ったこと）" title="ウグイス（困ったことの案内役）"> <img src="illustrations/bird-showcase-ruribitaki.webp" width="320" alt="ルリビタキ（お披露目）" title="ルリビタキ（お披露目の案内役）"></p>
+<p align="center"><img src="illustrations/bird-setup-suzume.webp" width="260" alt="スズメ（準備）" title="スズメ（準備）"> <img src="illustrations/bird-problem-uguisu.webp" width="260" alt="ウグイス（困ったこと）" title="ウグイス（困ったこと）"> <img src="illustrations/bird-shape-tsubame.webp" width="260" alt="ツバメ（型あてはめ）" title="ツバメ（型あてはめ）"> <img src="illustrations/bird-make-kogera.webp" width="180" alt="コゲラ（作る）" title="コゲラ（作る）"></p>
+<p align="center"><img src="illustrations/bird-verify-hakusekirei.webp" width="260" alt="ハクセキレイ（確かめる）" title="ハクセキレイ（確かめる）"> <img src="illustrations/bird-showcase-ruribitaki.webp" width="260" alt="ルリビタキ（お披露目）" title="ルリビタキ（お披露目）"> <img src="illustrations/bird-help-shijukara.webp" width="260" alt="シジュウカラ（困ったとき）" title="シジュウカラ（困ったとき）"> <img src="illustrations/birds-workshop-flock.webp" width="340" alt="鳥たちの群れ（体験会）" title="鳥たちの群れ（体験会）"></p>
 
 ## 約束（やり過ぎないための決めごと）
 
