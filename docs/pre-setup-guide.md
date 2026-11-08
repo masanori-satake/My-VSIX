@@ -32,7 +32,7 @@ pre-commit --version
 
 ### ステップ3: フックの初回実行
 
-テンプレートのフォルダ3つすべてで、順に次を実行してください（`templates/command/`、`templates/display/`、`templates/showcase/`）。あとでどの型を選んでも、当日にダウンロードで待たずに済むようにするためです。ここでの目的は作品を作ることではなく、初回だけ必要なダウンロード（Node.js や vsce など）を終わらせておくことです。2つ目以降は使い回しが効くので、短時間で終わります。
+テンプレートのフォルダ3つすべてで、順に次を実行してください（`templates/command/`、`templates/display/`、`templates/showcase/`）。あとでどの型を選んでも、当日にダウンロードで待たずに済むようにするためです。ここでの目的は作品を作ることではなく、初回だけ必要なダウンロード（Node.js や vsce など）を終わらせておくことです。2つ目以降は、一度ダウンロードしたものを使い回すので、短時間で終わります。
 
 ```
 pre-commit run --all-files
@@ -55,10 +55,10 @@ pre-commit run --all-files
 
 ## 動作確認基準（全部に当てはまれば準備完了）
 
-- [] `python --version` で保証範囲内（3.11〜3.14）のバージョンが表示される
-- [] `pre-commit --version` でバージョンが表示される
-- [] `pre-commit run --all-files` で2つとも Passed になる（テンプレート3フォルダすべて。初回ダウンロードが終わっている）
-- [] AI ツール（Copilot／Kiro）で my-vsix-setup スキルが認識されている
+- [ ] `python --version` で保証範囲内（3.11〜3.14）のバージョンが表示される
+- [ ] `pre-commit --version` でバージョンが表示される
+- [ ] `pre-commit run --all-files` で2つとも Passed になる（テンプレート3フォルダすべて。初回ダウンロードが終わっている）
+- [ ] AI ツール（Copilot／Kiro）で my-vsix-setup スキルが認識されている
 
 ## キットをやめるとき
 

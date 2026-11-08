@@ -1,4 +1,4 @@
 # assets
 
 - `term-bridge.md`: 日常語 ↔ 専門用語の対訳表
-- 画面マップ（VS Code の領域に番号・色を付けた図）はここに画像で置く（初版作成時に用意する）
+- `screen-map.svg` と `screen-map.md`: 画面マップ（VS Code の領域に番号を付けた図と対応表）

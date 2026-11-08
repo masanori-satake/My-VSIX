@@ -6,8 +6,8 @@
 |---|---|---|
 | 下の細い帯 | ステータスバー | StatusBarItem |
 | 左の一覧 | サイドバー（エクスプローラー等） | Side Bar / TreeView |
-| 下の広い場所 | パネル | Panel（Webview Panel / View） |
-| 命令の窓 | コマンドパレット | Command Palette |
+| 下の広い部分 | パネル | Panel（Webview Panel / View） |
+| 呼び出し窓 | コマンドパレット | Command Palette |
 | 押したら動くやつ | コマンド | Command |
 | 今開いているファイル | アクティブエディタ | TextEditor |
 | 選んだ文字 | 選択範囲 | Selection |
