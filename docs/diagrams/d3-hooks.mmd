@@ -1,0 +1,10 @@
+flowchart LR
+    subgraph commit["コミットのたび（自動）"]
+        G["機械ガード<br/>check_all.py"]
+    end
+    subgraph build["ビルド入口（verify が実行）"]
+        G2["機械ガード<br/>check_all.py"]
+        S["構文チェック<br/>全 JS ファイル"]
+        V["VSIX 化<br/>vsce package"]
+        G2 --> S --> V
+    end

@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant M as make（実装）
+    participant V as verify（検証）
+    participant G as 機械ガード（コミット時）
+    Note over M,V: 大きなループ（体験の進行を守る）
+    M->>V: ビルドにかけられる形を渡す
+    V->>V: ビルド・ガード・VSIX 化
+    alt 失敗
+        V->>M: 理由を説明して差し戻し（通算2回まで）
+        M->>V: 直して再提出
+    end
+    Note over M,G: 小さなループ（コミットのたび、別枠）
+    M->>G: コミット
+    alt ガードで停止
+        G-->>M: 理由をやさしい言葉で報告
+        M->>M: 機械的に直せるものは自分で直す（2回まで）
+        M->>G: もう一度コミット
+    end
