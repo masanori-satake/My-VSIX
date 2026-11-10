@@ -1,0 +1,19 @@
+flowchart TB
+    U["参加者<br/>課題を見つけ、言葉にする"]
+    AI["AI（Copilot／Kiro）<br/>スキルの指示どおりに動く実行役"]
+    SK["スキル群（8本）<br/>フェーズごとの手順書"]
+    MEMO[("制作メモ<br/>引き継ぎはこの1枚")]
+    TPL["テンプレート（3型）<br/>スタートライン"]
+    GD["機械ガード<br/>check_all.py"]
+    BD["ビルド<br/>build.js（構文チェック＋VSIX 化）"]
+    PC["pre-commit<br/>環境の自動用意と、フックの実行"]
+
+    U -->|"声かけ文を貼る"| AI
+    AI -->|"description で自動選択"| SK
+    SK -->|"各フェーズで読み書き"| MEMO
+    SK -->|"展開して使う"| TPL
+    AI -->|"検証時・コミット時に実行"| PC
+    PC --> GD
+    PC --> BD
+    GD -->|"違反はやさしい言葉で報告"| AI
+    BD -->|"VSIX"| U

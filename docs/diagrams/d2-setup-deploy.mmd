@@ -1,0 +1,11 @@
+flowchart LR
+    SRC["正本<br/>skills/（8本）"]
+    SETUP["tools/setup.py<br/>機械展開"]
+    GH[".github/skills/<br/>Copilot 用"]
+    KIRO[".kiro/skills/<br/>Kiro 用"]
+    BOOT["setup スキルだけは<br/>最初から両方に配置済み"]
+
+    SRC --> SETUP --> GH
+    SETUP --> KIRO
+    BOOT -.-> GH
+    BOOT -.-> KIRO
