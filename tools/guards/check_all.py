@@ -49,20 +49,29 @@ def check_manifest(root, findings):
     except Exception:
         findings.append("- package.json が読み取れません。")
         return
+    if not isinstance(data, dict):
+        findings.append("- package.json の中身が、想定した形（項目の集まり）になっていません。")
+        return
     if data.get("dependencies"):
         findings.append("- package.json: 部品（依存パッケージ）が追加されています。このキットでは部品は足さない約束です。")
-    if not data.get("engines", {}).get("vscode"):
+    engines = data.get("engines")
+    if not isinstance(engines, dict) or not engines.get("vscode"):
         findings.append("- package.json: 対象バージョンの指定（engines.vscode）がありません。Kiro で動かない事故を防ぐため必須です。")
 
 
 def main() -> int:
-    root = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else ".")
+    root = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
     findings = []
     check_manifest(root, findings)
     for path in sorted(root.rglob("*")):
-        # tools/ はキット同梱の道具（ガード自身とビルド）なので走査対象外
-        if path.is_file() and path.suffix in SOURCE_EXTS and not ({"node_modules", "tools", "dist"} & set(path.parts)):
-            scan_file(path, str(path.relative_to(root)), findings)
+        if not path.is_file() or path.suffix not in SOURCE_EXTS:
+            continue
+        rel = path.relative_to(root)
+        # tools/ はキット同梱の道具（ガード自身とビルド）なので走査対象外。
+        # 判定は作品フォルダからの相対パスだけで行う（置き場所のフォルダ名に影響されないため）
+        if {"node_modules", "tools", "dist"} & set(rel.parts):
+            continue
+        scan_file(path, str(rel), findings)
     if findings:
         print("チェックで止まりました。引っかかったのは次の点です:")
         print("\n".join(findings))
