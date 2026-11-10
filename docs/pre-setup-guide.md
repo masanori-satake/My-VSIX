@@ -56,7 +56,7 @@ pre-commit --version
 テンプレートのフォルダ3つすべてで、順に次を実行してください（`templates/command/`、`templates/display/`、`templates/showcase/`）。あとでどの型を選んでも、当日にダウンロードで待たずに済むようにするためです。ここでの目的は作品を作ることではなく、初回だけ必要なダウンロード（Node.js や vsce など）を終わらせておくことです。2つ目以降は、一度ダウンロードしたものを使い回すので、短時間で終わります。
 
 ```
-pre-commit run --all-files
+pre-commit run --all-files --hook-stage manual
 ```
 
 （フックの導入 `pre-commit install -f` は、自分の作品プロジェクトを作る時に setup スキルが案内します）
@@ -82,7 +82,7 @@ pre-commit run --all-files
 - [ ] `python --version` で保証範囲内（3.11〜3.14）のバージョンが表示される
 - [ ] `pre-commit --version` でバージョンが表示される
 - [ ] 使っているエディタ（VS Code／Kiro）のバージョンが下限（土台 1.100）以上である（確認方法: エディタの「バージョン情報」の画面。根拠は [バージョン固定表](version-pins.md)）
-- [ ] `pre-commit run --all-files` で2つとも Passed になる（テンプレート3フォルダすべて。初回ダウンロードが終わっている）
+- [ ] `pre-commit run --all-files --hook-stage manual` で Passed になる（テンプレート3フォルダすべて。初回ダウンロードが終わっている）
 - [ ] AI ツール（Copilot／Kiro）で my-vsix-setup スキルが認識されている
 
 ## キットをやめるとき
