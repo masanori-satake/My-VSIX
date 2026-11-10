@@ -1,5 +1,5 @@
 # ビルド入口（作品プロジェクト用ひな形）
-# 実行: pre-commit run --all-files
+# 実行: pre-commit run --all-files（pre-commit install 後は、コミットのたびにも自動で走ります）
 # 流れ: 機械ガード → 構文チェック → VSIX 化（dist/ へ出力）
 repos:
   - repo: local
@@ -12,6 +12,7 @@ repos:
       - id: my-vsix-build
         name: 構文チェックと VSIX 化
         entry: node tools/build/build.js
+        stages: [manual]
         language: node
         language_version: "24"
         additional_dependencies: ["@vscode/vsce@4.1.0"]
