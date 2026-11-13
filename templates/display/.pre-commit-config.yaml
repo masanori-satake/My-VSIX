@@ -14,6 +14,6 @@ repos:
         entry: node tools/build/build.js
         stages: [manual]
         language: node
-        language_version: "24"
+        language_version: "24.22.1"
         additional_dependencies: ["@vscode/vsce@4.1.0"]
         pass_filenames: false
