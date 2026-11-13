@@ -1,26 +1,36 @@
 {
-"name": "my-work-command",
-"displayName": "（作品の名前）",
-"description": "（一言で何ができるか）",
-"version": "0.1.0",
-"publisher": "myself",
-"engines": { "vscode": "^1.100.0"},
-"categories": ["Other"],
-"activationEvents": [],
-"main": "./extension.js",
-"contributes": {
-"commands": [
-{ "command": "myWork.insertPhrase", "title": "自分の定型句を挿入"}
-],
-"configuration": {
-"title": "（作品の名前）",
-"properties": {
-"myWork.phrases": {
-"type": "array",
-"default": ["お疲れさまです。"],
-"description": "挿入できる定型句の一覧"
-}
-}
-}
-}
+  "name": "my-work-command",
+  "displayName": "（作品の名前）",
+  "description": "（一言で何ができるか）",
+  "version": "0.1.0",
+  "icon": "icon.png",
+  "publisher": "myself",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "myWork.insertPhrase",
+        "title": "自分の定型句を挿入"
+      }
+    ],
+    "configuration": {
+      "title": "（作品の名前）",
+      "properties": {
+        "myWork.phrases": {
+          "type": "array",
+          "default": [
+            "お疲れさまです。"
+          ],
+          "description": "挿入できる定型句の一覧"
+        }
+      }
+    }
+  }
 }
