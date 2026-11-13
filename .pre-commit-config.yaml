@@ -1,0 +1,12 @@
+# この設定はキット自体の事前準備専用です。
+# 作品側のフック設定は templates/ の各型の中にあります。
+repos:
+  - repo: local
+    hooks:
+      - id: my-vsix-prepare
+        name: 事前準備チェック（テンプレートの初回ビルド）
+        entry: python tools/prepare/check_templates.py
+        language: python
+        pass_filenames: false
+        always_run: true
+        stages: [manual]
