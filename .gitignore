@@ -2,3 +2,10 @@ node_modules/
 dist/
 *.vsix
 __pycache__/
+
+# セットアップで機械展開されるスキルコピー（生成物）
+# 正本は skills/ にあり、my-vsix-setup のコピーだけは配布物として追跡します
+.github/skills/*/
+.kiro/skills/*/
+!.github/skills/my-vsix-setup/
+!.kiro/skills/my-vsix-setup/
