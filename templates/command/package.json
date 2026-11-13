@@ -3,6 +3,7 @@
 "displayName": "（作品の名前）",
 "description": "（一言で何ができるか）",
 "version": "0.1.0",
+"icon": "icon.png",
 "publisher": "myself",
 "engines": { "vscode": "^1.100.0"},
 "categories": ["Other"],
