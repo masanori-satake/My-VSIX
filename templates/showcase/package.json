@@ -1,24 +1,17 @@
 {
-  "name": "my-work-showcase",
-  "displayName": "（作品の名前）",
-  "description": "（一言で何が見えるか）",
-  "version": "0.1.0",
-  "icon": "icon.png",
-  "publisher": "myself",
-  "engines": {
-    "vscode": "^1.100.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [],
-  "main": "./extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "myWork.openCheatSheet",
-        "title": "自分のチートシートを開く"
-      }
-    ]
-  }
+"name": "my-work-showcase",
+"displayName": "（作品の名前）",
+"description": "（一言で何が見えるか）",
+"version": "0.1.0",
+"icon": "icon.png",
+"publisher": "myself",
+"engines": { "vscode": "^1.100.0"},
+"categories": ["Other"],
+"activationEvents": [],
+"main": "./extension.js",
+"contributes": {
+"commands": [
+{ "command": "myWork.openCheatSheet", "title": "自分のチートシートを開く"}
+]
+}
 }
